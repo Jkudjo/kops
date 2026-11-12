@@ -1,6 +1,6 @@
 module k8s.io/kops/tests/e2e
 
-go 1.18
+go 1.24
 
 replace k8s.io/kops => ../../.
 
@@ -127,7 +127,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kevinburke/ssh_config v1.1.0 // indirect
-	github.com/klauspost/compress v1.15.1 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/kr/fs v0.1.0 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
